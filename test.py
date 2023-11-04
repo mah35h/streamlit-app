@@ -1,5 +1,5 @@
 import streamlit as st
-#st.title('Hello Mahesh')
+st.title('Hello Mahesh')
 st.text("This is my first Streamlit app")
 
 import streamlit as st
@@ -48,7 +48,7 @@ def load_LLM(openai_api_key):
     llm = OpenAI(temperature=.7, openai_api_key=openai_api_key)
     return llm
 
-st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
+#st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
 st.header("Globalize Text")
 
 col1, col2 = st.columns(2)
