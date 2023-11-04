@@ -173,7 +173,7 @@ Do not make anything up, only use information which is in the person's context
 combine_prompt_template = PromptTemplate(template=combine_prompt, input_variables=["text", "persons_name", "response_type"])
 
 # Start Of Streamlit page
-st.set_page_config(page_title="LLM Assisted Interview Prep", page_icon=":robot:")
+#st.set_page_config(page_title="LLM Assisted Interview Prep", page_icon=":robot:")
 
 # Start Top Information
 st.header("LLM Assisted Interview Prep")
