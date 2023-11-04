@@ -1,4 +1,4 @@
 langchain
 openai
 streamlit
-tweepy
+tweepy==4.14.0
