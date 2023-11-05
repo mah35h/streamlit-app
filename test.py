@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Replace 'YOUR_API_KEY' with your actual OpenAI API key
-api_key = "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"
+api_key = ""
 
 # Function to generate questions using GPT-3.5
 def generate_questions(text, max_tokens=50):
